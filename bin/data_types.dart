@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main(List<String> args) {
   String firstName = "Anin";
   int shoesSize = 39;
@@ -9,4 +11,10 @@ void main(List<String> args) {
     "wife": "Gracia",
     "husband": "Yudist"
   };
+
+  stdout.write('Nama Oshi: ');
+  String name = stdin.readLineSync()!;
+  stdout.write("Usia Oshi: ");
+  int age = int.parse(stdin.readLineSync()!);
+  print('Halo $name, usia kamu rupanya $age tahun');
 }
