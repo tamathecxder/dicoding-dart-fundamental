@@ -11,6 +11,7 @@ class Animal {
   }
 
   // Getter
+  String get name => _name;
   double get weight => _weight;
   int get age => _age;
 
