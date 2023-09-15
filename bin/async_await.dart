@@ -8,6 +8,15 @@ void main() async {
   } finally {
     print('Thank you');
   }
+
+  var firstString = 'Dart';
+var secondString = 'Flutter';
+print(firstString + secondString);
+  print(product(5, 7));
+}
+
+num product(int firstNumber, double secondNumber) {
+  return firstNumber * secondNumber;
 }
 
 Future<String> getOrder() {
